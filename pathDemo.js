@@ -21,3 +21,7 @@ const __dirname = path.dirname(__filename);
 // join 
 const filepath2 = path.join(__dirname, 'dir1', 'dir2', 'dir3', 'test.txt');
 console.log(filepath2);
+
+//reslove 
+const filepath3 = path.resolve(__dirname, 'dir1', 'dir2', 'dir3', 'test.txt');
+console.log(filepath3);
